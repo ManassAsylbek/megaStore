@@ -19,24 +19,23 @@ body{
     height: 264px;
     background: #FFFFFF;
     border-radius: 4px;
+    padding: 16px;
 
 }
 .title{
-    font-family:  Sora;
+    font-family:  sora,sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: 20px;
-    display: flex;
-    align-items: center;
     text-align: center;
     color: #000000;
-    margin-top: 40px;
+    margin-top: 24px;
     margin-bottom: 16px;
 
 }
 .input_number{
-    font-family: Sora;
+    font-family: Sora,sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -44,4 +43,34 @@ body{
     display: flex;
     align-items: center;
     color: #000000;
+    margin-bottom: 8px;
+}
+.input{
+    padding: 16px;
+    width: 608px;
+    border: 0.5px solid #DADADA;
+    border-radius: 4px;
+}
+
+.btn{
+
+    margin: 16px;
+    width: 384px;
+    height: 48px;
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 1px;
+    background: #232529;
+    border-radius: 4px;
+    color: #FFFFFF;
+}
+.btn2{
+    display: flex;
+    justify-content: center;
 }
