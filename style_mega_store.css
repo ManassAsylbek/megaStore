@@ -22,3 +22,27 @@ body{
     border-radius: 4px;
 
 }
+.title{
+    font-family:  Sora ,sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    margin-top: 40px;
+    margin-bottom: 16px;
+
+}
+.input_number{
+    font-family: Sora;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
