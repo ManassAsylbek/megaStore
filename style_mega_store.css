@@ -16,10 +16,11 @@ body{
 .card{
     border: 2px solid gray;
     width: 640px;
-    height: 264px;
+    /*height: 264px;*/
     background: #FFFFFF;
     border-radius: 4px;
-    padding: 16px;
+    padding: 40px 16px 48px 16px;
+
 
 }
 .title{
@@ -30,7 +31,6 @@ body{
     line-height: 20px;
     text-align: center;
     color: #000000;
-    margin-top: 24px;
     margin-bottom: 16px;
 
 }
@@ -54,7 +54,7 @@ body{
 
 .btn{
 
-    margin: 16px;
+    margin-top: 16px;
     width: 384px;
     height: 48px;
     font-family: 'Sora';
@@ -70,7 +70,70 @@ body{
     border-radius: 4px;
     color: #FFFFFF;
 }
-.btn2{
+.row_center{
     display: flex;
     justify-content: center;
+}
+.row_left{
+    display: flex;
+    justify-content: left;
+}
+.btn a{
+    text-decoration: none;
+    color:#fff;
+}
+
+/*2html*/
+.color_grey{
+    text-align: center;
+    color: #A9A9A9;
+    margin-bottom: 32px;
+}
+.space{
+    display: flex;
+    justify-content: space-between;
+
+}
+.title2{
+    text-align: left;
+}
+
+.input1{
+    background: #FFFFFF;
+    border: 0.5px solid #DADADA;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 25px 8px 16px;
+    margin-bottom: 16px;
+    color:#757575;
+
+}
+.input48{
+    width: 48px;
+    height: 48px;
+    margin: 8px;
+}
+.input3{
+    width: 195px;
+    height: 48px;
+
+}
+.input4{
+    margin-right: 9px;
+}
+.input5{
+    width: 398px;
+    height: 48px;
+
+}
+.input6 {
+    width: 296px;
+    height: 48px;
+
+}
+.input7{
+    width: 608px;
+    height: 48px;
 }
