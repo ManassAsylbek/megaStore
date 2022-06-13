@@ -4,6 +4,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background: #E5E5E5;
+    height: 100vh;
+    padding: 16px;
+}
 
 .card1{
     background-color:  #fff;
@@ -29,7 +34,7 @@
     line-height: 20px;
     text-align: center;
     color: #000000;
-    margin:0 0 24px 16px;
+    margin:16px 0 16px 16px;
 }
 .title18{
     font-family: 'Sora';
@@ -110,9 +115,6 @@
     display: flex;
     justify-content: space-between;
 
-}
-.title2{
-    text-align: left;
 }
 
 .input1{
